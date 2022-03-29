@@ -102,6 +102,7 @@ body {
   background-color: var(--Bright-blue);
   color: white;
   font-weight: 700;
+  font-size: 1.15rem;
   border-radius: 5%;
   border: none;
   padding: 15px 20px;
@@ -116,6 +117,7 @@ a:hover {
   background-color: white;
   color: grey;
   font-weight: 700;
+  font-size: 1.15rem;
   margin-top: 15px;
 }
 
@@ -137,9 +139,14 @@ a:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+.attribution a:hover {
+  color: var(--Dark-blue);
+  font-weight: 700;
+}
 footer {
   position: absolute;
-  top: 90%;
+  top: 98%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -157,6 +164,11 @@ footer {
   .plan-title,
   .plan-price,
   a {
+    font-size: 0.9rem;
+  }
+
+  .attribution,
+  .attribution a {
     font-size: 0.7rem;
   }
 }
