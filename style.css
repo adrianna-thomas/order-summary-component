@@ -7,6 +7,7 @@
 
 body {
   font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
   box-sizing: border-box;
   min-height: 100vh;
   max-width: 100vw;
@@ -15,10 +16,6 @@ body {
   background-size: contain;
   background-color: var(--Pale-blue);
   position: relative;
-}
-
-body {
-  font-size: 16px;
 }
 
 :root {
@@ -131,6 +128,7 @@ a:hover {
   color: black;
   cursor: pointer;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -138,6 +136,12 @@ a:hover {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+footer {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 375px) {
